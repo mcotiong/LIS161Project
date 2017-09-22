@@ -1,0 +1,45 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Fredoka One", sans-serif;}
+body, html {
+    height: 100%;
+    color: #303030;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("trybg.png");
+    min-height: 100%;
+}
+
+.bgimg-2{
+    
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-2 {
+    background-image: url("aboutbg.jpg");
+    min-height: 45%;
+}
+
+.thumbnail {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
